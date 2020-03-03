@@ -1,12 +1,13 @@
 package main
 
-import (
-	"fmt",
+import(
+	"net/http";
+	"log";
 	"qq-bot-api"
 )
 
 func main() {
-	bot, err := qqbotapi.NewBotAPI("MyCoolqHttpToken", "http://localhost:5700", "CQHTTP_SECRET")
+	bot, err := qqbotapi.NewBotAPI("123456789ab", "http://192.168.0.1:5700", "CQHTTP_SECRET")
 	if err != nil {
 		log.Fatal(err)
 	}
