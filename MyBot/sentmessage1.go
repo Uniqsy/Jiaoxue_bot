@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"qqbotapi"
+	"qq-bot-api"
 )
 
 func main() {
@@ -27,13 +27,8 @@ func main() {
 	})
 
 	// Send a text-img message
-	s := bot.NewMessage(10000000, "group").
-		At("1232332333").
-		Text("嘤嘤嘤").
-		NewLine().
-		FaceByName("调皮").
-		Text("这是一个测试").
-		ImageBase64("img.jpg").
+	s := bot.NewMessage(167532012, "group").
+		Text("how to write Chinese in vim ?").
 		Send()
 
 	// Withdraw that message
