@@ -1,4 +1,3 @@
-# Jiaoxue_bot
-
-## 每日记录
+there is my beego qq bot
+for the linux cloud server
 
